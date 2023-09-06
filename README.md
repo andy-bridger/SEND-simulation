@@ -46,7 +46,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Code for generating an atomic model and then producing realistic dual SEND-EDX simulation data along with the ground truth labels
+Code for generating an atomic model and then producing realistic dual SEND-EDX simulation data along with the ground truth labels.
+
+iPYNB contains all the code for generating the datasets required but the .py files seperate out some of the more computationally expensive steps into individual scripts that can be run on a HPC cluster.
+
+If you are only interested in obtaining the reslting datasets/ want to specific versions of the code used to produce said datasets, everything is packaged at the Zenodo repo, link below.
 
 
 
