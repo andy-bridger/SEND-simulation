@@ -282,7 +282,7 @@ abtem.__version__
 from mp_api.client import MPRester
 from pymatgen.io.ase import AseAtomsAdaptor
 
-with MPRester("M0Obz6wJ54K7RPRwuqn1K7wmJsasBDfn") as mpr:
+with MPRester("api-key") as mpr:
     docs = mpr.summary.search(material_ids=["mp-134"], fields=["structure"])
     al = AseAtomsAdaptor().get_atoms(docs[0].structure)
     
